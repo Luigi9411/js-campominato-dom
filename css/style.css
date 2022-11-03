@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box-header{
+    height: 5em;
+}
+
+.back-color{
+    background-color: #7FFFD4;
+    height: 36em;
+}
+
+.button-color{
+    background-color: #E9E9ED;
+    color: black;
+    margin: 2em 0;
+    padding: 0 3em;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	
+}
+
+.cell {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	color: black;
+}
+
+.cell.active {
+	background-color: blue;
+}
+
+.link-color{
+    color: #72409E;
+}
+
+.hidden{
+	display: none;
+}
