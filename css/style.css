@@ -14,10 +14,10 @@
 }
 
 .button-color{
-    background-color: #E9E9ED;
+    background-color: #FFC107;
     color: black;
-    margin: 2em 0;
-    padding: 0 3em;
+    margin: 1.5em 0;
+    padding: .5em 1em;
 }
 
 .container {
@@ -55,11 +55,11 @@
 }
 
 .cell.mine{
-	background-color: #72409E;
+	background-color: #850606;
 }
 
 .cell.no-mine{
-	background-color: aqua;
+	background-color: #16166D;
 }
 
 .result{
